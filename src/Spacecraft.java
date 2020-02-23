@@ -1,12 +1,3 @@
-public class Spacecraft {
+public abstract class Spacecraft implements FlyingObject {
 
-    private final String buzzFlyyyyy;
-
-    public Spacecraft(String flyyyyy) {
-        buzzFlyyyyy = flyyyyy;
-    }
-
-    public void fly(){
-        System.out.println(buzzFlyyyyy);
-    }
 }
